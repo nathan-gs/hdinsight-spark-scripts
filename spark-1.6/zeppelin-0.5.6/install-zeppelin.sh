@@ -101,8 +101,8 @@ SPARK_JAR=$SPARK_JAR_DIR/zeppelin-spark.jar
 hadoop fs -mkdir -p $SPARK_JAR_DIR
 hadoop fs -put -f -p $LOCAL_SPARK_JAR $SPARK_JAR
 
-download_file https://raw.githubusercontent.com/nathan-gs/hdinsight-spark-scripts/master/spark-1.6/zeppelin-0.5.6/zeppelin-env.sh $INSTALL_DIR/conf/zeppelin-env.sh
-download_file https://raw.githubusercontent.com/nathan-gs/hdinsight-spark-scripts/master/spark-1.6/zeppelin-0.5.6/zeppelin-site.xml $INSTALL_DIR/conf/zeppelin-site.xml
+download_file https://raw.githubusercontent.com/nathan-gs/hdinsight-spark-scripts/master/spark-1.6/zeppelin-${ZEPPELIN_VERSION}/zeppelin-env.sh $INSTALL_DIR/conf/zeppelin-env.sh
+download_file https://raw.githubusercontent.com/nathan-gs/hdinsight-spark-scripts/master/spark-1.6/zeppelin-${ZEPPELIN_VERSION}/zeppelin-site.xml $INSTALL_DIR/conf/zeppelin-site.xml
 
 installZeppelind
 service zeppelind start
