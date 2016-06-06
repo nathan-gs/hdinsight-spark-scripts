@@ -1,0 +1,108 @@
+  <configuration>
+    
+    <property>
+      <name>zeppelin.interpreter.connect.timeout</name>
+      <value>30000</value>
+    </property>
+    
+    <property>
+      <name>zeppelin.interpreter.dir</name>
+      <value>interpreter</value>
+    </property>
+    
+    <property>
+      <name>zeppelin.interpreters</name>
+      <value>org.apache.zeppelin.spark.SparkInterpreter,org.apache.zeppelin.spark.PySparkInterpreter,org.apache.zeppelin.spark.SparkSqlInterpreter,org.apache.zeppelin.spark.DepInterpreter,org.apache.zeppelin.markdown.Markdown,org.apache.zeppelin.angular.AngularInterpreter,org.apache.zeppelin.shell.ShellInterpreter,org.apache.zeppelin.hive.HiveInterpreter,org.apache.zeppelin.phoenix.PhoenixInterpreter</value>
+    </property>
+    
+    <property>
+      <name>zeppelin.notebook.dir</name>
+      <value>notebook</value>
+    </property>
+    
+    <property>
+      <name>zeppelin.notebook.homescreen</name>
+      <value> </value>
+    </property>
+    
+    <property>
+      <name>zeppelin.notebook.homescreen.hide</name>
+      <value>false</value>
+    </property>
+    
+    <property>
+      <name>zeppelin.notebook.s3.bucket</name>
+      <value>zeppelin</value>
+    </property>
+    
+    <property>
+      <name>zeppelin.notebook.s3.user</name>
+      <value>user</value>
+    </property>
+    
+    <property>
+      <name>zeppelin.notebook.storage</name>
+      <value>org.apache.zeppelin.notebook.repo.VFSNotebookRepo</value>
+    </property>
+    
+    <property>
+      <name>zeppelin.server.addr</name>
+      <value>0.0.0.0</value>
+    </property>
+    
+    <property>
+      <name>zeppelin.server.allowed.origins</name>
+      <value>*</value>
+    </property>
+    
+    <property>
+      <name>zeppelin.server.port</name>
+      <value>9995</value>
+    </property>
+    
+    <property>
+      <name>zeppelin.ssl</name>
+      <value>false</value>
+    </property>
+    
+    <property>
+      <name>zeppelin.ssl.client.auth</name>
+      <value>false</value>
+    </property>
+    
+    <property>
+      <name>zeppelin.ssl.key.manager.password</name>
+      <value>change me</value>
+    </property>
+    
+    <property>
+      <name>zeppelin.ssl.keystore.password</name>
+      <value>change me</value>
+    </property>
+    
+    <property>
+      <name>zeppelin.ssl.keystore.path</name>
+      <value>conf/keystore</value>
+    </property>
+    
+    <property>
+      <name>zeppelin.ssl.keystore.type</name>
+      <value>JKS</value>
+    </property>
+    
+    <property>
+      <name>zeppelin.ssl.truststore.password</name>
+      <value>change me</value>
+    </property>
+    
+    <property>
+      <name>zeppelin.ssl.truststore.path</name>
+      <value>conf/truststore</value>
+    </property>
+    
+    <property>
+      <name>zeppelin.ssl.truststore.type</name>
+      <value>JKS</value>
+    </property>
+    
+  </configuration>

@@ -1,2 +1,3 @@
-# hdinsight-spark-scripts
-HDInsight Spark Scripts
+# HDInsight Spark Scripts
+
+Installation scripts to install Zeppelin and others on HDInsight Spark.
