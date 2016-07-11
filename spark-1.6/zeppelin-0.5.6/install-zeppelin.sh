@@ -4,7 +4,7 @@ INSTALL_DIR=/usr/hdp/current/incubator-zeppelin
 
 ZEPPELIN_VERSION=0.5.6
 ZEPPELIN_BINARIES_LINK=https://archive.apache.org/dist/incubator/zeppelin/${ZEPPELIN_VERSION}-incubating/zeppelin-${ZEPPELIN_VERSION}-incubating-bin-all.tgz
-ZEPPELIN_KEYS_LINK=https://www.apache.org/dist/incubator/zeppelin/KEYS
+ZEPPELIN_KEYS_LINK=https://archive.apache.org/dist/incubator/zeppelin/KEYS
 ZEPPELIN_ASC_LINK=https://archive.apache.org/dist/incubator/zeppelin/${ZEPPELIN_VERSION}-incubating/zeppelin-${ZEPPELIN_VERSION}-incubating-bin-all.tgz.asc
 
 ZEPPELIN_SETUP_DIR=/tmp/zeppelinsetup
